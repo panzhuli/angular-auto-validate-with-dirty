@@ -195,7 +195,7 @@
     // Create Custom Tasks
     grunt.registerTask('default', [
       'jsbeautifier',
-      'jshint',
+      //'jshint',
       'karma:unit',
       'plato:analysis',
 

@@ -20,6 +20,7 @@
                                 ngModelOptions = attrs.ngModelOptions === undefined ? undefined : scope.$eval(attrs.ngModelOptions),
                                 setValidity = ngModelCtrl.$setValidity,
                                 setPristine = ngModelCtrl.$setPristine,
+                                setDirty = ngModelCtrl.$setDirty,
                                 setValidationState = debounce.debounce(function () {
                                     var validateOptions = frmCtrl !== undefined && frmCtrl !== null ? frmCtrl.autoValidateFormOptions : undefined;
                                     validationManager.validateElement(ngModelCtrl, element, validateOptions);

@@ -80,7 +80,9 @@
 
                                 return errorTypeToReturn;
                             };
-
+                        if (el.val() !== '') {
+                            modelCtrl.$setDirty();
+                        }
                         if (frmOptions.disabled === false) {
                             if ((frmOptions.forceValidation || (shouldValidateElement(el, frmOptions) && modelCtrl && needsValidation))) {
                                 isValid = !modelCtrl.$invalid;

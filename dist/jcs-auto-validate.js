@@ -1,5 +1,5 @@
 /*
- * angular-auto-validate - v1.18.6 - 2015-04-16
+ * angular-auto-validate - v1.18.6 - 2015-05-01
  * https://github.com/jonsamwell/angular-auto-validate
  * Copyright (c) 2015 Jon Samwell (http://www.jonsamwell.com)
  */
@@ -895,7 +895,9 @@
 
                                 return errorTypeToReturn;
                             };
-
+                        if (el.val() !== '') {
+                            modelCtrl.$setDirty();
+                        }
                         if (frmOptions.disabled === false) {
                             if ((frmOptions.forceValidation || (shouldValidateElement(el, frmOptions) && modelCtrl && needsValidation))) {
                                 isValid = !modelCtrl.$invalid;
@@ -1210,6 +1212,7 @@
                                 ngModelOptions = attrs.ngModelOptions === undefined ? undefined : scope.$eval(attrs.ngModelOptions),
                                 setValidity = ngModelCtrl.$setValidity,
                                 setPristine = ngModelCtrl.$setPristine,
+                                setDirty = ngModelCtrl.$setDirty,
                                 setValidationState = debounce.debounce(function () {
                                     var validateOptions = frmCtrl !== undefined && frmCtrl !== null ? frmCtrl.autoValidateFormOptions : undefined;
                                     validationManager.validateElement(ngModelCtrl, element, validateOptions);
