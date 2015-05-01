@@ -1,7 +1,7 @@
 /*
- * angular-auto-validate - v1.18.6 - 2015-05-01
- * https://github.com/jonsamwell/angular-auto-validate
- * Copyright (c) 2015 Jon Samwell (http://www.jonsamwell.com)
+ * angular-auto-validate-with-dirty - v1.18.6 - 2015-05-01
+ * https://github.com/panzhuli/angular-auto-validate
+ * Copyright (c) 2015 Jon Samwell, edited by panzhuli (http://www.jonsamwell.com)
  */
 (function (angular) {
     'use strict';

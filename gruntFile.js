@@ -137,7 +137,7 @@
         },
         dist: {
           files: {
-            'dist/jcs-auto-validate.min.js': ['dist/jcs-auto-validate.js']
+            'dist/jcs-auto-validate-with-dirty.min.js': ['dist/jcs-auto-validate-with-dirty.js']
           }
         }
       },
@@ -164,7 +164,7 @@
             'src/config/ngSubmitDecorator.js',
             'src/config/ngModelDecorator.js',
             'src/jcs-auto-validate-run.js'],
-          dest: 'dist/jcs-auto-validate.js'
+          dest: 'dist/jcs-auto-validate-with-dirty.js'
         }
       },
 
