@@ -41,7 +41,7 @@
 
     <!--<script type="text/javascript" src="../dist/jcs-auto-validate.min.js"></script>-->
 
-    <script type="text/javascript" src="../src/jcs-auto-validate.js"></script>
+    <script type="text/javascript" src="../src/jcs-auto-validate-with-dirty.js"></script>
     <script type="text/javascript" src="../src/providers/validator.js"></script>
     <script type="text/javascript" src="../src/services/bootstrap3ElementModifier.js"></script>
     <script type="text/javascript" src="../src/services/debounce.js"></script>
@@ -57,7 +57,7 @@
 
     <script type="text/javascript">
     (function (angular) {
-        var app = angular.module('jcs-demo', ['jcs-autoValidate']);
+        var app = angular.module('jcs-demo', ['jcs-autoValidateWithDirty']);
 
         app.controller('demoCtrl', [
             '$http',

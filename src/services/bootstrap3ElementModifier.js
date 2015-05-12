@@ -1,7 +1,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate')
+    angular.module('jcs-autoValidateWithDirty')
         .factory('bootstrap3ElementModifier', [
             '$log',
             function ($log) {

@@ -1,18 +1,18 @@
 /*
- * angular-auto-validate-with-dirty - v1.18.6 - 2015-05-01
+ * angular-auto-validate-with-dirty - v1.18.6 - 2015-05-12
  * https://github.com/panzhuli/angular-auto-validate
  * Copyright (c) 2015 Jon Samwell, edited by panzhuli (http://www.jonsamwell.com)
  */
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate', []);
+    angular.module('jcs-autoValidateWithDirty', []);
 }(angular));
 
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate')
+    angular.module('jcs-autoValidateWithDirty')
         .provider('validator', [
             function () {
                 var elementStateModifiers = {},
@@ -302,7 +302,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate')
+    angular.module('jcs-autoValidateWithDirty')
         .factory('bootstrap3ElementModifier', [
             '$log',
             function ($log) {
@@ -489,7 +489,7 @@
     /*
      * Taken from https://github.com/angular/angular.js/issues/2690#issue-14462164 (with added tests of course!)
      */
-    angular.module('jcs-autoValidate').factory('jcs-debounce', [
+    angular.module('jcs-autoValidateWithDirty').factory('jcs-debounce', [
         '$timeout',
         function ($timeout) {
             var debounce = function (fn, timeout, apply) {
@@ -552,7 +552,7 @@
         url: 'Please enter a valid URL in the format of http(s)://www.google.com'
     };
 
-    angular.module('jcs-autoValidate')
+    angular.module('jcs-autoValidateWithDirty')
         .factory('defaultErrorMessageResolver', [
             '$q',
             '$http',
@@ -725,7 +725,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate')
+    angular.module('jcs-autoValidateWithDirty')
         .factory('foundation5ElementModifier', [
 
             function () {
@@ -816,7 +816,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate')
+    angular.module('jcs-autoValidateWithDirty')
         .factory('jcs-elementUtils', [
             function () {
                 var isElementVisible = function (el) {
@@ -829,7 +829,7 @@
             }
         ]);
 
-    angular.module('jcs-autoValidate')
+    angular.module('jcs-autoValidateWithDirty')
         .factory('validationManager', [
             'validator',
             'jcs-elementUtils',
@@ -1044,7 +1044,7 @@
         }
     }
 
-    angular.module('jcs-autoValidate').directive('form', [
+    angular.module('jcs-autoValidateWithDirty').directive('form', [
         'validator',
         function (validator) {
             return {
@@ -1062,7 +1062,7 @@
         }
     ]);
 
-    angular.module('jcs-autoValidate').directive('ngForm', [
+    angular.module('jcs-autoValidateWithDirty').directive('ngForm', [
         'validator',
         function (validator) {
             return {
@@ -1084,7 +1084,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate').directive('form', [
+    angular.module('jcs-autoValidateWithDirty').directive('form', [
         'validationManager',
         function (validationManager) {
             return {
@@ -1112,7 +1112,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate').directive('registerCustomFormControl', [
+    angular.module('jcs-autoValidateWithDirty').directive('registerCustomFormControl', [
         function () {
             var findParentForm = function (el) {
                 var parent = el;
@@ -1144,7 +1144,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate').config(['$provide',
+    angular.module('jcs-autoValidateWithDirty').config(['$provide',
         function ($provide) {
             $provide.decorator('ngSubmitDirective', [
                 '$delegate',
@@ -1193,7 +1193,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate').config(['$provide',
+    angular.module('jcs-autoValidateWithDirty').config(['$provide',
         function ($provide) {
             $provide.decorator('ngModelDirective', [
                 '$timeout',
@@ -1333,7 +1333,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate')
+    angular.module('jcs-autoValidateWithDirty')
         .run([
             'validator',
             'defaultErrorMessageResolver',

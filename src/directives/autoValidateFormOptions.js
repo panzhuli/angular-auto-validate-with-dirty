@@ -17,7 +17,7 @@
         }
     }
 
-    angular.module('jcs-autoValidate').directive('form', [
+    angular.module('jcs-autoValidateWithDirty').directive('form', [
         'validator',
         function (validator) {
             return {
@@ -35,7 +35,7 @@
         }
     ]);
 
-    angular.module('jcs-autoValidate').directive('ngForm', [
+    angular.module('jcs-autoValidateWithDirty').directive('ngForm', [
         'validator',
         function (validator) {
             return {

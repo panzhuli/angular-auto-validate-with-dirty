@@ -10,7 +10,7 @@
                 $rootScope.$digest();
             };
 
-        beforeEach(module('jcs-autoValidate'));
+        beforeEach(module('jcs-autoValidateWithDirty'));
 
         describe('ngSubmitDirective', function () {
             beforeEach(inject(function ($injector) {

@@ -1,5 +1,5 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate', []);
+    angular.module('jcs-autoValidateWithDirty', []);
 }(angular));

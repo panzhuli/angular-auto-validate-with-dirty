@@ -3,7 +3,7 @@
     describe('jcs-autoValidator validator', function () {
         var sandbox, $rootScope, $q, validator;
 
-        beforeEach(module('jcs-autoValidate'));
+        beforeEach(module('jcs-autoValidateWithDirty'));
 
         describe('validator', function () {
             beforeEach(inject(function ($injector) {

@@ -1,7 +1,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate').config(['$provide',
+    angular.module('jcs-autoValidateWithDirty').config(['$provide',
         function ($provide) {
             $provide.decorator('ngModelDirective', [
                 '$timeout',

@@ -4,7 +4,7 @@
     describe('jcs-autoValidate defaultErrorMessageResolver', function () {
         var sandbox, $rootScope, $q, $httpBackend, defaultErrorMessageResolver;
 
-        beforeEach(module('jcs-autoValidate'));
+        beforeEach(module('jcs-autoValidateWithDirty'));
 
         describe('defaultErrorMessageResolver', function () {
             beforeEach(inject(function ($injector) {

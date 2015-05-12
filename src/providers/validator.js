@@ -1,7 +1,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate')
+    angular.module('jcs-autoValidateWithDirty')
         .provider('validator', [
             function () {
                 var elementStateModifiers = {},

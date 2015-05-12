@@ -151,7 +151,7 @@
           ' */\n'
         },
         dist: {
-          src: ['src/jcs-auto-validate.js',
+          src: ['src/jcs-auto-validate-with-dirty.js',
             'src/providers/validator.js',
             'src/services/bootstrap3ElementModifier.js',
             'src/services/debounce.js',

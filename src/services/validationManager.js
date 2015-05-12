@@ -1,7 +1,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate')
+    angular.module('jcs-autoValidateWithDirty')
         .factory('jcs-elementUtils', [
             function () {
                 var isElementVisible = function (el) {
@@ -14,7 +14,7 @@
             }
         ]);
 
-    angular.module('jcs-autoValidate')
+    angular.module('jcs-autoValidateWithDirty')
         .factory('validationManager', [
             'validator',
             'jcs-elementUtils',

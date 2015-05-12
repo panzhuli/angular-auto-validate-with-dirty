@@ -4,7 +4,7 @@
     describe('jcs.autoValidate debounce', function () {
         var sandbox, $rootScope, $timeout, debounce;
 
-        beforeEach(module('jcs-autoValidate'));
+        beforeEach(module('jcs-autoValidateWithDirty'));
 
         describe('bootstrap3ElementModifier', function () {
             beforeEach(inject(function ($injector) {

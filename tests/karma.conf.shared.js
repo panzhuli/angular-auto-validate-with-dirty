@@ -72,7 +72,7 @@ shared.files = [
     'tests/browserTrigger.js',
 
     // app libraries
-    'src/jcs-auto-validate.js',
+    'src/jcs-auto-validate-with-dirty.js',
     'src/**/*.js',
 
     'src/jcs-auto-validate-run.js'

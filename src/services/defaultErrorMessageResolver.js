@@ -31,7 +31,7 @@
         url: 'Please enter a valid URL in the format of http(s)://www.google.com'
     };
 
-    angular.module('jcs-autoValidate')
+    angular.module('jcs-autoValidateWithDirty')
         .factory('defaultErrorMessageResolver', [
             '$q',
             '$http',

@@ -1,7 +1,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate').directive('form', [
+    angular.module('jcs-autoValidateWithDirty').directive('form', [
         'validationManager',
         function (validationManager) {
             return {

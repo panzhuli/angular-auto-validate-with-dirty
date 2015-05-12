@@ -1,7 +1,7 @@
 (function (angular) {
     'use strict';
 
-    angular.module('jcs-autoValidate').directive('registerCustomFormControl', [
+    angular.module('jcs-autoValidateWithDirty').directive('registerCustomFormControl', [
         function () {
             var findParentForm = function (el) {
                 var parent = el;

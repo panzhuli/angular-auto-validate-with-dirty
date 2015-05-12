@@ -4,7 +4,7 @@
     describe('angulartemplates.modules.form foundation5ElementModifier', function () {
         var sandbox, $rootScope, foundation5ElementModifier;
 
-        beforeEach(module('jcs-autoValidate'));
+        beforeEach(module('jcs-autoValidateWithDirty'));
 
         describe('foundation5ElementModifier', function () {
             beforeEach(inject(function ($injector) {

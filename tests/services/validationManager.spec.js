@@ -26,7 +26,7 @@
                 };
             };
 
-        beforeEach(module('jcs-autoValidate'));
+        beforeEach(module('jcs-autoValidateWithDirty'));
 
         describe('validationManager', function () {
             beforeEach(inject(function ($injector) {

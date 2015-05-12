@@ -24,7 +24,7 @@
                 });
             };
 
-        beforeEach(module('jcs-autoValidate'));
+        beforeEach(module('jcs-autoValidateWithDirty'));
 
         describe('ngModelDirective', function () {
             beforeEach(inject(function ($injector) {

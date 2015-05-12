@@ -4,7 +4,7 @@
     describe('jcs.autoValidate bootstrap3ElementModifier', function () {
         var sandbox, $rootScope, bootstrap3ElementModifier;
 
-        beforeEach(module('jcs-autoValidate'));
+        beforeEach(module('jcs-autoValidateWithDirty'));
 
         describe('bootstrap3ElementModifier', function () {
             beforeEach(inject(function ($injector) {

@@ -8,7 +8,7 @@
             $rootScope.$digest();
         };
 
-    beforeEach(module('jcs-autoValidate'));
+    beforeEach(module('jcs-autoValidateWithDirty'));
 
     describe('autoValidateFormOptions', function () {
         beforeEach(inject(function ($injector) {
