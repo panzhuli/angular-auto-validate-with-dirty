@@ -16,7 +16,7 @@
     "bootstrap",
     "foundation"
   ],
-  "author": "panzhuli",
+  "author": "Jon Samwell, edited by panzhuli",
   "license": "MIT",
   "homepage": "https://github.com/panzhuli/angular-auto-validate-with-dirty",
   "devDependencies": {
