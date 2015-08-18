@@ -21,10 +21,10 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "homepage": "https://github.com/panzhuli/angular-auto-validate",
+  "homepage": "https://github.com/panzhuli/angular-auto-validate-with-dirty",
   "repository": {
     "type": "git",
-    "url": "git://github.com/panzhuli/angular-auto-validate"
+    "url": "git://github.com/panzhuli/angular-auto-validate-with-dirty"
   },
   "ignore": [
     "**/.*",
