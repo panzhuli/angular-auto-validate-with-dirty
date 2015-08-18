@@ -1,6 +1,6 @@
 {
   "name": "angular-auto-validate-with-dirty",
-  "version": "1.18.8",
+  "version": "1.18.9",
   "description": "An automatic validation module for AngularJS which gets rid of excess html in favour of dynamic element modification to notify the user of validation errors",
   "main": "angular-auto-validate-with-dirty.min.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "bootstrap",
     "foundation"
   ],
-  "author": "Jon Samwell <jonsamwell@gmail.com>",
+  "author": "panzhuli",
   "license": "MIT",
   "homepage": "https://github.com/panzhuli/angular-auto-validate-with-dirty",
   "devDependencies": {
